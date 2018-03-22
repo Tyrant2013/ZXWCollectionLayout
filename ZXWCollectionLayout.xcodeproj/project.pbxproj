@@ -15,6 +15,12 @@
 		EB1E78FD20633AF500196660 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EB1E78FC20633AF500196660 /* main.m */; };
 		EB1E790720633AF600196660 /* ZXWCollectionLayoutTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EB1E790620633AF600196660 /* ZXWCollectionLayoutTests.m */; };
 		EB1E791220633AF600196660 /* ZXWCollectionLayoutUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EB1E791120633AF600196660 /* ZXWCollectionLayoutUITests.m */; };
+		EB1E792120633C4400196660 /* ZXWScaleLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = EB1E792020633C4400196660 /* ZXWScaleLayout.m */; };
+		EB1E792920633C7600196660 /* CADisplayLink+ALUserInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = EB1E792420633C7600196660 /* CADisplayLink+ALUserInfo.m */; };
+		EB1E792A20633C7600196660 /* ALReorderCollectionViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = EB1E792620633C7600196660 /* ALReorderCollectionViewLayout.m */; };
+		EB1E792B20633C7600196660 /* UICollectionViewCell+ALReorderableCollectionViewFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = EB1E792820633C7600196660 /* UICollectionViewCell+ALReorderableCollectionViewFlowLayout.m */; };
+		EB1E793120633CAF00196660 /* ALCollectionScrollCenterLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = EB1E792F20633CAE00196660 /* ALCollectionScrollCenterLayout.m */; };
+		EB1E793220633CAF00196660 /* ALCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = EB1E793020633CAE00196660 /* ALCollectionView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +57,18 @@
 		EB1E790D20633AF600196660 /* ZXWCollectionLayoutUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZXWCollectionLayoutUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB1E791120633AF600196660 /* ZXWCollectionLayoutUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZXWCollectionLayoutUITests.m; sourceTree = "<group>"; };
 		EB1E791320633AF600196660 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB1E791F20633C4400196660 /* ZXWScaleLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXWScaleLayout.h; sourceTree = "<group>"; };
+		EB1E792020633C4400196660 /* ZXWScaleLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXWScaleLayout.m; sourceTree = "<group>"; };
+		EB1E792320633C7600196660 /* ALReorderCollectionViewLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALReorderCollectionViewLayout.h; sourceTree = "<group>"; };
+		EB1E792420633C7600196660 /* CADisplayLink+ALUserInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CADisplayLink+ALUserInfo.m"; sourceTree = "<group>"; };
+		EB1E792520633C7600196660 /* UICollectionViewCell+ALReorderableCollectionViewFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UICollectionViewCell+ALReorderableCollectionViewFlowLayout.h"; sourceTree = "<group>"; };
+		EB1E792620633C7600196660 /* ALReorderCollectionViewLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALReorderCollectionViewLayout.m; sourceTree = "<group>"; };
+		EB1E792720633C7600196660 /* CADisplayLink+ALUserInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CADisplayLink+ALUserInfo.h"; sourceTree = "<group>"; };
+		EB1E792820633C7600196660 /* UICollectionViewCell+ALReorderableCollectionViewFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UICollectionViewCell+ALReorderableCollectionViewFlowLayout.m"; sourceTree = "<group>"; };
+		EB1E792D20633CAE00196660 /* ALCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALCollectionView.h; sourceTree = "<group>"; };
+		EB1E792E20633CAE00196660 /* ALCollectionScrollCenterLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALCollectionScrollCenterLayout.h; sourceTree = "<group>"; };
+		EB1E792F20633CAE00196660 /* ALCollectionScrollCenterLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALCollectionScrollCenterLayout.m; sourceTree = "<group>"; };
+		EB1E793020633CAE00196660 /* ALCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALCollectionView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +119,10 @@
 		EB1E78EC20633AF500196660 /* ZXWCollectionLayout */ = {
 			isa = PBXGroup;
 			children = (
+				EB1E792C20633CAE00196660 /* ALCollectionView */,
+				EB1E792220633C7600196660 /* ReorderCollectionViewLayout */,
+				EB1E791F20633C4400196660 /* ZXWScaleLayout.h */,
+				EB1E792020633C4400196660 /* ZXWScaleLayout.m */,
 				EB1E78ED20633AF500196660 /* AppDelegate.h */,
 				EB1E78EE20633AF500196660 /* AppDelegate.m */,
 				EB1E78F020633AF500196660 /* ViewController.h */,
@@ -130,6 +152,30 @@
 				EB1E791320633AF600196660 /* Info.plist */,
 			);
 			path = ZXWCollectionLayoutUITests;
+			sourceTree = "<group>";
+		};
+		EB1E792220633C7600196660 /* ReorderCollectionViewLayout */ = {
+			isa = PBXGroup;
+			children = (
+				EB1E792320633C7600196660 /* ALReorderCollectionViewLayout.h */,
+				EB1E792420633C7600196660 /* CADisplayLink+ALUserInfo.m */,
+				EB1E792520633C7600196660 /* UICollectionViewCell+ALReorderableCollectionViewFlowLayout.h */,
+				EB1E792620633C7600196660 /* ALReorderCollectionViewLayout.m */,
+				EB1E792720633C7600196660 /* CADisplayLink+ALUserInfo.h */,
+				EB1E792820633C7600196660 /* UICollectionViewCell+ALReorderableCollectionViewFlowLayout.m */,
+			);
+			path = ReorderCollectionViewLayout;
+			sourceTree = "<group>";
+		};
+		EB1E792C20633CAE00196660 /* ALCollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				EB1E792D20633CAE00196660 /* ALCollectionView.h */,
+				EB1E792E20633CAE00196660 /* ALCollectionScrollCenterLayout.h */,
+				EB1E792F20633CAE00196660 /* ALCollectionScrollCenterLayout.m */,
+				EB1E793020633CAE00196660 /* ALCollectionView.m */,
+			);
+			path = ALCollectionView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,8 +308,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				EB1E78F220633AF500196660 /* ViewController.m in Sources */,
+				EB1E793220633CAF00196660 /* ALCollectionView.m in Sources */,
+				EB1E792A20633C7600196660 /* ALReorderCollectionViewLayout.m in Sources */,
 				EB1E78FD20633AF500196660 /* main.m in Sources */,
+				EB1E792120633C4400196660 /* ZXWScaleLayout.m in Sources */,
+				EB1E793120633CAF00196660 /* ALCollectionScrollCenterLayout.m in Sources */,
 				EB1E78EF20633AF500196660 /* AppDelegate.m in Sources */,
+				EB1E792B20633C7600196660 /* UICollectionViewCell+ALReorderableCollectionViewFlowLayout.m in Sources */,
+				EB1E792920633C7600196660 /* CADisplayLink+ALUserInfo.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
