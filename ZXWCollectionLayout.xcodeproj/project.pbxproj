@@ -21,6 +21,7 @@
 		EB1E792B20633C7600196660 /* UICollectionViewCell+ALReorderableCollectionViewFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = EB1E792820633C7600196660 /* UICollectionViewCell+ALReorderableCollectionViewFlowLayout.m */; };
 		EB1E793120633CAF00196660 /* ALCollectionScrollCenterLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = EB1E792F20633CAE00196660 /* ALCollectionScrollCenterLayout.m */; };
 		EB1E793220633CAF00196660 /* ALCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = EB1E793020633CAE00196660 /* ALCollectionView.m */; };
+		EB1E794120635A9300196660 /* ALWaterfallLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = EB1E793F20635A9300196660 /* ALWaterfallLayout.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +70,8 @@
 		EB1E792E20633CAE00196660 /* ALCollectionScrollCenterLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALCollectionScrollCenterLayout.h; sourceTree = "<group>"; };
 		EB1E792F20633CAE00196660 /* ALCollectionScrollCenterLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALCollectionScrollCenterLayout.m; sourceTree = "<group>"; };
 		EB1E793020633CAE00196660 /* ALCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALCollectionView.m; sourceTree = "<group>"; };
+		EB1E793F20635A9300196660 /* ALWaterfallLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALWaterfallLayout.m; sourceTree = "<group>"; };
+		EB1E794020635A9300196660 /* ALWaterfallLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALWaterfallLayout.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +122,7 @@
 		EB1E78EC20633AF500196660 /* ZXWCollectionLayout */ = {
 			isa = PBXGroup;
 			children = (
+				EB1E793E20635A9300196660 /* WaterfallLayout */,
 				EB1E792C20633CAE00196660 /* ALCollectionView */,
 				EB1E792220633C7600196660 /* ReorderCollectionViewLayout */,
 				EB1E791F20633C4400196660 /* ZXWScaleLayout.h */,
@@ -176,6 +180,15 @@
 				EB1E793020633CAE00196660 /* ALCollectionView.m */,
 			);
 			path = ALCollectionView;
+			sourceTree = "<group>";
+		};
+		EB1E793E20635A9300196660 /* WaterfallLayout */ = {
+			isa = PBXGroup;
+			children = (
+				EB1E793F20635A9300196660 /* ALWaterfallLayout.m */,
+				EB1E794020635A9300196660 /* ALWaterfallLayout.h */,
+			);
+			path = WaterfallLayout;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -316,6 +329,7 @@
 				EB1E78EF20633AF500196660 /* AppDelegate.m in Sources */,
 				EB1E792B20633C7600196660 /* UICollectionViewCell+ALReorderableCollectionViewFlowLayout.m in Sources */,
 				EB1E792920633C7600196660 /* CADisplayLink+ALUserInfo.m in Sources */,
+				EB1E794120635A9300196660 /* ALWaterfallLayout.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
